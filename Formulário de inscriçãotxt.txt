@@ -1,0 +1,50 @@
+Exercício Formulário de Inscrição
+
+Em uma inscrição, o usuário informou os seguintes dados:
+
+- Nome: José Almeida da Silva
+- CPF: 12345678900
+- RG: 9517530
+- Altura: 1,78
+- Endereço: Rua A, 380 – Centro – Recife/PE
+
+No algoritmo, descreva como será:
+1. A proposta das variáveis;
+2. Elaborada a declaração das variáveis;
+3. Utilizado o comando de atribuição.
+
+RESPOSTAS:
+
+1. As variáveis devem seguir a seguinte proposta:
+
+	Nome, do tipo caracter;
+	CPF, do tipo inteiro;
+	RG, do tipo inteiro;
+	Altura, do tipo real;
+	Endereço, do tipo caracter.
+
+2. Elaborando a declaração das variáveis:
+
+	caracter Nome;
+	inteiro CPF;
+	inteiro RG;
+	real Altura;
+	caracter Endereço;
+
+3. Utilizando o comando de atribuição:
+
+	Considerando:
+
+	1º) <= como o comando de atribuição;
+	2º) Que as variáveis já foram declaradas, restando simplesmente atribuir-lhes valor;
+	3º) Que uma cadeia de caracteres possa ser declarada sem demais artifício, como uso de aspas simples ou aspas duplas;
+	4º) Que o símbolo que separa um número inteiro de sua parte decimal seja a vírgula;
+
+	A atribuição pode ser feita da seguinte maneira:
+
+	Nome <= José Almeida da Silva;
+	CPF <= 12345678900;
+	RG <= 9517530;
+	Altura <= 1,78;
+	Endereço <= Rua A, 380 – Centro – Recife/PE;
+	
