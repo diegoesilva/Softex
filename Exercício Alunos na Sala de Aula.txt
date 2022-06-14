@@ -1,0 +1,7 @@
+Exercício Alunos na Sala de Aula
+
+Explicação:
+
+A partir da segunda ilustração, percebe-se que o professor organizou as linhas e colunas das cadeiras de forma que em cada uma delas existissem 4 alunos que gostam de uma disciplina e 2 que gostam de outra. Algumas linhas e colunas possuem 4 alunos que preferem português e 2 alunos que preferem matemtática e algumas outras linhas e colunas invertem essa proporção, possuindo 2 alunos que gostam de português e 4 que gostam de matemática. Dessa forma, após o retorno o professor à sala de aula, mesmo não tendo memorizado qual aluno trocou de lugar, ficou fácil deduzir observando essas proporções.
+Revendo a disposição, o professor percebeu que tanto a quinta linhas quanto a quinta coluna não obedessem à proporção original, tendo a mudança ocorrido na interseção dessas duas. E por fim, verificando que o aluno sentado na banca em questão prefere português quando deveria ser um que prefere matemática, concluiu que essa foi a troca feita.
+
