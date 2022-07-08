@@ -1,0 +1,48 @@
+﻿escreva ("CADASTRO")
+escreva ("")
+escreva ("")
+
+escreva("Por favor, informe seu nome: ")
+leia(nome)
+
+escreva("Informe seu endereço: ")
+leia(endereco)
+
+escreva("Informe a cidade em que vive: ")
+leia(cidade)
+
+escreva("CPF: ")
+leia(cpf)
+
+escreva("RG: ")
+leia(rg)
+
+escreva("Idade: ")
+leia(idade)
+
+escreva("Informe o nome do seu pai: ")
+leia(nomePai)
+
+escreva("Informe o nome da sua mãe: ")
+leia(nomeMae)
+
+escreva("Qual o seu peso? ")
+leia(peso)
+
+escreva("Renda Bruta: ")
+leia(rendaBruta)
+
+
+escreva("Cadastro realizado com sucesso!")
+escreva("")
+
+escreva("Nome: ", nome)
+escreva("Endereço: ", endereco)
+escreva("Cidade: ", cidade)
+escreva("CPF: ", cpf)
+escreva("RG: ", rg)
+escreva("Idade: ", idade)
+escreva("Nome do pai: ", nomePai)
+escreva("Nome da mãe: ", nomeMae)
+escreva("Peso: ", peso)
+escreva("Renda Bruta: ", rendaBruta)
