@@ -1,0 +1,98 @@
+escreva("Advinhação")
+escreva("")
+escreva("")
+
+escreva("Pense em um meio de transporte dentre estes: Trator, Moto, Bicicleta, Trem, Carro, Caminhão, Ônibus, Paraquedas, Balão, Avião, Helicóptero, Submarino, Barco, Navio e Lancha")
+
+escreva("Pensou? Vou advinhar.")
+escreva("Escreva s para Sim e n para não")
+
+escreva("O meio de transporte que você pensou é terrestre?")
+leia(respostaTerrestre)
+se (respostaTerrestre = "s") então
+	escreva("Cabe apenas uma pessoa?")
+	leia(respostaCabePessoa)
+	se (respostaCabePessoa = "s") então
+		escreva("É pesado?")
+		leia(respostaPesado)
+		se (respostaPesado = "s") então
+			escreva("Você pensou em TRATOR")
+		senão
+			escreva("Você pensou em BICICLETA")
+		fimse
+	senão
+		escreva("Usa capacete?")
+		leia(capacete)
+		se (capacete = "s") então
+			escreva("Você pensou em MOTO")
+		senão
+			escreva("Usa trilho?")
+			leia(respostaTrilho)
+			se (respostaTrilho = "s") então
+				escreva("Você pensou TREM")
+			senão
+				escreva("É alto?")
+				leia(respostaAlto)
+				se (respostaAlto = "s") então
+					escreva("Usa carroceria?")
+					leia(respostaCarroceria)
+					se (respostaCarroceria = "s") então
+						escreva("Você pensou CAMINHÃO")
+					senão
+						escreva("Você pensou ÔNIBUS")
+					fimse
+				senão
+					escreva("Você pensou CARRO")
+				fimse
+			fimse
+		fimse
+	fimse
+senão
+	escreva("É aéreo?")
+	leia(respostaAereo)
+	se (respostaAereo = "s") então
+		escreva("Precisa pular?")
+		leia(respostaPular)
+		se (resposta pular = "s") então
+			escreva("Você pensou PARAQUEDAS")
+		senão
+			escreva("Faz vôo vertical?")
+			leia(respostaVertical)
+			se (respostaVertical = "s") então
+				escreva("É lento?")
+				leia(respostaLento)
+				se (respostaLento = "s") então
+					escreva("Você pensou BALÃO")
+				senão
+					escreva("Você pensou HELICÓPTERO")
+				fimse
+			senão
+				escreva("Você pensou AVIÃO")
+			fimse
+		fimse
+	senão
+		escreva("É coberto de água?")
+		leia(respostaCobertoAgua)
+		se (respostaCobertoAgua = "s") então
+			escreva("Você pensou SUBMARINO")
+		senão
+			escreva("Possui vela?")
+			leia(respostaVela)
+			se (respostaVela = "s") então
+				escreva("Você pensou BARCO")
+			senão
+				escreva("É alto?")
+				leia(respostaAlto)
+					se (respostaAlto = "s") então
+						escreva("Você pensou NAVIO")
+					senão
+						escreva("Você pensou LANCHA")
+					fimse
+			fimse
+		fimse
+	fimse
+fimse
+
+
+
+	
