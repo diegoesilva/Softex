@@ -1,0 +1,13 @@
+#Insertion Sort contruído em Python
+#Definido em forma de função, para ser usada com o array a ser ordenado como argumento
+
+def insertionSort(vetor):
+    for i in range(1, len(vetor)):
+        elemento = vetor[i]
+        j = i-1
+        while (j >= 0) and (elemento < vetor[j]):
+            vetor[j+1] = vetor[j]
+            j -= 1
+        vetor[j+1] = elemento
+        
+ 
