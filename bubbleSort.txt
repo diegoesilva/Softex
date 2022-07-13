@@ -1,0 +1,9 @@
+#Bubble Sorte contruído em Python
+#Definido em forma de função, para ser usada com o array a ser ordenado como argumento
+
+def bubbleSort(vetor):
+    limite = len(vetor)
+    for i in range(limite):
+        for j in range(0, limite-i-1):
+            if vetor[j] > vetor[j+1]:
+                vetor[j], vetor[j+1] = vetor[j+1], vetor[j]
