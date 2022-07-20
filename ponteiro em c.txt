@@ -1,0 +1,10 @@
+
+
+int v[5];    /* Criando vetor de inteiros de tamanho 5 */
+int * pt;    /* Criando um ponteiro */
+pt = v;      /* Atribuindo o endereço do vetor v ao ponteiro pt */
+
+pt = (int*) realloc (pt, 22*sizeof(int)); /* Aumentando o tamando de v para 22 */
+
+free(pt);  /* Liberando o bloco através da função free  */
+
