@@ -1,0 +1,3 @@
+"Diversas organizações estão utilizando grafos para modelar redes sociais, análise de fraude, campanhas eleitorais e até para evitar a proliferação de doenças."
+
+fonte: https://itforum.com.br/noticias/grafos-e-o-comercio-eletronico-tudo-a-ver/
