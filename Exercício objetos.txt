@@ -1,0 +1,41 @@
+Classifique dois objetos materiais e dois abstratos. Insira, no mínimo, três métodos e três atributos para cada.
+
+Objeto: Motocicleta(material)
+
+	Métodos: 	Acelerar()
+			Frear()
+			LigarFarol()
+
+	Atributos:	Cor
+			Modelo
+			Ano de Fabricação
+
+Objeto: Cachorro(material)
+
+	Métodos: 	Comer()
+			Dormir()
+			Passear()
+
+	Atributos:	Nome
+			Raça
+			Idade
+
+Objeto: Filme(abstrato)
+
+	Métodos: 	Iniciar()
+			Pausar()
+			PularCapitulo()
+
+	Atributos:	Ano de lançamento
+			Gênero
+			Diretor
+
+Objeto: ConsultaMedica(abstrato)
+
+	Métodos: 	Marcar()
+			Desmarcar()
+			AlterarData()
+
+	Atributos:	Data
+			Médico Responsável
+			Plano de Saúde
