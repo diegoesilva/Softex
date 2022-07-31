@@ -1,17 +1,30 @@
 # Estruture três códigos, os quais devem conter uma função de manipulação de
 # string que obtenha resultado.
 
-# Código 1 - Informa a quantidade de caracteres na string
+print("CÓDIGO 1 - Informa a quantidade de caracteres na string\n")
 
-print(len(input("\nEscreva qualquer coisa: ")))
+def contar(string):
+    return len(string)
 
-# Código 2 - Recebe uma string e converte para maiúsculas
+print(contar(input("Escreva uma palavra ou frase para ser contada: ")), "caracteres.")
 
-print(input("\nEscreva qualquer coisa: ").upper())
 
-# Código 3 - Recebe uma string e mostra de trás pra frente
 
-string = input("\nEscreva qualquer coisa: ")
 
-for i in range(len(string), 0, -1):
-    print(string[i-1], end = "")
+print("\nCÓDIGO 2 - Recebe uma string e converte para maiúsculas\n")
+
+def cxAlta(string):
+    return string.upper()
+
+print("Entrada convertida:", cxAlta(input("Escreva algo para ser convertido: ")))
+
+print("\nCÓDIGO 3 - Recebe uma string e mostra de trás pra frente\n")
+
+def reverso(string):
+    rev = ""
+    for i in range(len(string), 0, -1):
+        rev += string[i-1]
+    return rev
+
+print("Entrada revertida:", reverso(input("Escreva algo para ser revertido: ")))
+    
