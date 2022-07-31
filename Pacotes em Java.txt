@@ -1,0 +1,50 @@
+# Crie dois pacotes baseados nas atribuições de uma empresa e inclua classes
+# neles. Lembre-se de trabalhar com os padrões Java.
+
+package br.com.softexrecife.curso.alunos;
+
+public class Aluno{
+    
+    String nome;
+    int nota;
+
+    public String mostrarNome(){
+        return nome;
+    }
+
+    public void setNome(String novoNome){
+        this.nome = novoNome;
+    }
+    
+    public int mostrarNota(){
+        return nota;
+    }
+
+    public void setNota(int novaNota){
+        this.nota = novaNota;
+    }
+}
+
+package br.com.softexrecife.curso.docentes;
+
+public class Professor{
+
+    String nome;
+    String disciplina;
+
+    public String mostrarNome(){
+        return nome;
+    }
+
+    public void setNome(String novoNome){
+        this.nome = novoNome;
+    }
+
+    public String mostrarDisciplina(){
+        return disciplina;
+    }
+
+    public void setDisciplina(String novaDiscplina){
+        this.disciplina = novaDisciplina;
+    }
+}
