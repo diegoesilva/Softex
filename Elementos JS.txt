@@ -1,0 +1,16 @@
+Acesse pelo menos dois sites de sua preferência e os inspecione com o botão direito do mouse na página web.
+Com o código fonte aberto você deve: 
+
+Verificar no código algum elemento que utilize JavaScript; 
+Marcar alguns elementos do site; 
+Explicar como ele se comporta. Exemplo: entrar no site do Google, inspecionar o botão de pesquisa, verificar o código e explicar qual a finalidade do botão. 
+
+
+
+Site 1:	www.google.com.br
+Elemento inspecionado: 	barra de pesquisa
+Explicação: O botão evoca uma ação chamada jsaction que desacopla os nós DOM nos quais a ação ocorre do código JavaScript que manipula a ação.
+
+Site 2: www.facebook.com
+Elemento inspecionado: botão Cadastre-se
+Explicação: Submete os dados passados no formulário ao qual o botão está anexado para o servidor.
