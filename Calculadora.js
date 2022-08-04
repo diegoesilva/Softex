@@ -9,7 +9,14 @@ let prompt = require('prompt-sync')();
 
 let num1 = parseFloat(prompt("Informe um número: "))
 let num2 = parseFloat(prompt("Informe outro número: "))
-let op = prompt("Informe a operação desejada. \n\n+ para adição, \n- para subtração, \n* para multiplicação \n/ para divisão:  ")
+console.log("Escola a operação:\n")
+console.log("+------------------------------------------+")
+console.log("|         Escreva + para Adição            |")
+console.log("|         Escreva - para Subtração         |")
+console.log("|         Escreva * para Multiplicação     |")
+console.log("|         Escreva / para Divisão           |")
+console.log("+------------------------------------------+")
+let op = prompt()
 
 switch (op) {
   case '+':
