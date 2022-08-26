@@ -1,6 +1,13 @@
 public class Carro extends Veiculo{
 
-    public Carro(){
+    public Carro(String modelo, String marca, String cor, int numeroRodas){ /* Construtor com parâmetros */
+        this.modelo = modelo;
+        this.marca = marca;
+        this.cor = cor;
+        this.numeroRodas = numeroRodas;
+    }
+
+    public Carro(){ /* Construtor sem parâmetros, pra facilitar a vida do programador */
         this.modelo = "Fusca";
         this.marca = "Volkswagen";
         this.cor = "Branco";

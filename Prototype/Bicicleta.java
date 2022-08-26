@@ -1,5 +1,12 @@
 public class Bicicleta extends Veiculo {
 
+    public Bicicleta(String modelo, String marca, String cor, int numeroRodas){ 
+        this.modelo = modelo;
+        this.marca = marca;
+        this.cor = cor;
+        this.numeroRodas = numeroRodas;
+    }
+
     public Bicicleta(){
         this.modelo = "T-Type";
         this.marca = "Caloi";
