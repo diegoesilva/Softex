@@ -1,0 +1,5 @@
+Uma empresa está sofrendo ataques que impactam diretamente a sua segurança. Então, ela precisa atualizar as senhas de todos os seus funcionários. Cite pelo menos três métodos para melhorar essas senhas.
+
+1 - Utilizar ao menos uma letra maiúscula e uma letra minúscula
+2 - Utilizar ao menos um número
+3 - Utilizar caracteres especiais, tais como #, !, @, $, %, e outros.
