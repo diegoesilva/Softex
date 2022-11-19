@@ -1,3 +1,5 @@
-Com base nos vídeos 1 e 2, explique como a web funciona a partir do ponto de vista do protocolo cliente servidor. Crie o começo de um projeto em node.js, usando o npm e informe os comandos utilizados.
+Com base nos vÃ­deos 1 e 2, explique como a web funciona a partir do ponto de vista do protocolo cliente servidor. Crie o comeÃ§o de um projeto em node.js, usando o npm e informe os comandos utilizados.
 
-A web funciona, através da arquitetura cliente-servidor, com o cliente solicitando informações ao servidor através do protocolo HTTP. O cliente informa ao servidor o que deseja, o servidor processa a requisição e caso o cliente tenha autorização para acessar a informação ou página desejada, o servidor envia para o cliente as informação requisistadas.
+A web funciona, atravÃ©s da arquitetura cliente-servidor, com o cliente solicitando informaÃ§Ãµes ao servidor atravÃ©s do protocolo HTTP. O cliente informa ao servidor o que deseja, o servidor processa a requisiÃ§Ã£o e caso o cliente tenha autorizaÃ§Ã£o para acessar a informaÃ§Ã£o ou pÃ¡gina desejada, o servidor envia para o cliente as informaÃ§Ã£o requisistadas.
+
+Utilizando o Node Package Manager, podemos iniciar um projeto utilizando o comando "npm init -y".
