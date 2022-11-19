@@ -1,0 +1,19 @@
+Sem usar bibliotecas, crie um projeto simples em Node.js que seja capaz de responder requisições HTTP.
+Explique como rodar e testar.
+
+Código: 
+
+const http = require("http");
+const host = 'localhost';
+const port = 8000;
+const requestListener = function (req, res) {
+    res.writeHead(200);
+    res.end("Servidor Funcionando!");
+};
+const server = http.createServer(requestListener);
+server.listen(port, host, () => {
+    console.log(`Server is running on http://${host}:${port}`);
+});
+
+
+Explicação: O código acima estabelece um servidor que retorna a mensagem Servidor Funcionando quando a página é acessada. Para testar, basta colocar o código para rodar, abrir o navegador e acessar o endereço "localhost:8000".
