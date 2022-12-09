@@ -1,0 +1,9 @@
+
+<?xml version="1.0">
+<clientes>
+    <cliente id="1">
+        <nome>Samuel Rosa</nome>
+        <CPF>987.654.321-00</CPF>
+        <telefone>5581987654321</telefone>
+    </filme>
+</clientes>
