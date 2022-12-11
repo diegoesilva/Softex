@@ -1,0 +1,51 @@
+Os métodos HTTP mais utilizados são:
+
+
+POST, utilizado para enviar informações ao servidor. Um exemplo de POST é:
+	app.post('/artigos/add', (req, res) => {
+	    let artigo = req.body;
+	    let pos = artigos.length + 1;
+	    artigos.push(artigo);
+	    artigo.pos = pos;
+	    res.status(201).send(artigo);
+	});
+
+GET, utilizado para solicitar informações do servidor de web service. Um exemplo de código é:
+
+	app.get('/artigos/ver/:id', (req, res)=> {
+    		let id = req.params.id;
+    		if (id > 0 && id <= artigos.length){
+       	 		res.status(200).send(artigos[id-1]);
+   		} else{
+        		res.status(404).send('Arquivo não encontrado.');
+	    	};
+	});
+PUT, utilizado para atualizar alguma informação. Um exemplo de PUT:
+
+	app.put('/artigos/editar/:id', (req, res)=>{
+    		let id = req.params.id;
+   		if(id > 0 && id <= artigos.length){
+       		   let artigo = req.body;
+       		   artigos[id-1] = artigo;
+       		   res.status(200).send(artigo);
+    		} else{
+        	   res.status(404).send('Artigo não encontrado');
+   		}
+	});
+
+e por fim, DELETE, que como o próprio nome sugere, é utilizado para deletar informações. Um exemplo de DELETE:
+	
+	app.delete('artigos/remover/:id', (req, res)=>{   
+    	   let id = req.params.id;
+	   if (id > 0 && id <= artigos.length){
+        	artigos.splice(id-1, 1);
+	        res.status(200).send('Artigo removido')
+	   } else{
+        	res.status(404).send('Artigo não encontrado');
+	   }
+	});
+
+
+
+
+WSDL significa Web Services Description Language e é um padrão de mercado para descrever Web Services de forma a eliminar ao máximo a necessidade de comunicação entre as partes envolvidas em uma integração de dados.
